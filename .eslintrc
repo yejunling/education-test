@@ -1,7 +1,16 @@
+// {
+//   "extends": ["taro/react"],
+//   "rules": {
+//     "react/jsx-uses-react": "off",
+//     "react/react-in-jsx-scope": "off"
+//   }
+// }
 {
-  "extends": ["taro/react"],
+  "extends": ["taro", "standard"],
   "rules": {
-    "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off"
-  }
+    "no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
+    "taro/no-stateless-component": false
+  },
+  "parser": "babel-eslint"
 }

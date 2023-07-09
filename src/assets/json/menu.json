@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "table",
+      "code": "myTable",
+      "icon": "icon-table",
+      "url": "/table"
+    },
+    {
+      "id": 2,
+      "name": "contextMenu",
+      "code": "myContextMenu",
+      "icon": "icon-context-Menu",
+      "url": "/contextMenu"
+    },
+    {
+      "id": 3,
+      "name": "Dialog",
+      "code": "myDialog",
+      "icon": "icon-dialog",
+      "url": "/dialog",
+      "children": []
+    },
+    {
+      "id": 4,
+      "name": "expression",
+      "code": "myExpression",
+      "icon": "icon-expression",
+      "url": "/expression"
+    },
+    {
+      "id": 5,
+      "name": "marquee",
+      "code": "myMarquee",
+      "icon": "icon-marquee",
+      "url": "/marquee"
+    },
+    {
+      "id": 6,
+      "name": "openOrClose",
+      "code": "myOpenOrClose",
+      "icon": "icon-open-close",
+      "url": "/openOrClose"
+    },
+    {
+      "id": 7,
+      "name": "paging",
+      "code": "myPaging",
+      "icon": "icon-paging",
+      "url": "/paging"
+    },
+    {
+      "id": 8,
+      "name": "treeMenu",
+      "code": "myTreeMenu",
+      "icon": "icon-menu",
+      "url": "/treeMenu"
+    },
+    {
+      "id": 9,
+      "name": "flowChart",
+      "code": "flowChart",
+      "icon": "icon-liuchengtu",
+      "url": "/flowChart"
+    },
+    {
+      "id": 10,
+      "name": "tabs",
+      "code": "tabs",
+      "icon": "icon-tabs",
+      "url": "/tabs"
+    },
+    {
+      "id": 11,
+      "name": "input",
+      "code": "input",
+      "icon": "icon-input",
+      "url": "/input"
+    },
+    {
+      "id": 12,
+      "name": "select",
+      "code": "select",
+      "icon": "icon-select",
+      "url": "/select"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+const path = require('path')
 const config = {
   projectName: 'test2',
   date: '2023-7-8',
@@ -8,9 +9,13 @@ const config = {
     828: 1.81 / 2
   },
   sourceRoot: 'src',
-  outputRoot: 'dist',
-  plugins: [],
+  outputRoot: `dist/${process.env.TARO_ENV}`,
+  plugins: ['@tarojs/plugin-http'],
   defineConstants: {
+  },
+  alias: {
+    '@components': path.resolve(__dirname, '..', 'src/components'),
+    '@utils': path.resolve(__dirname, '..', 'src/utils')
   },
   copy: {
     patterns: [
